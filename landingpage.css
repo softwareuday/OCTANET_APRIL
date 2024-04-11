@@ -43,9 +43,10 @@ html,body{
 .text h1{
     font-weight: 600;
     font-size:4w;
+     position:relative;
 
-
-    top:20px;
+    top:0px;
+    left:30px;
     
 }
 .text .image{
@@ -62,7 +63,14 @@ html,body{
     justify-content: space-between;
 }
 .rtext p {
-    font-size: 12px;
+    font-size: 20px;
+    position:relative;
+
+}
+.rtext .para{
+    position:absolute;
+    left:50px;
+    top:200px;
 
 }
 #block{
